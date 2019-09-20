@@ -26,6 +26,13 @@ def self.reset_all
   self.all.clear
   end
   
+  def cat
+    Cat.all.select do |cat|
+      cat.owner == self
+    end
+  end
+  
+  
 
 
 
