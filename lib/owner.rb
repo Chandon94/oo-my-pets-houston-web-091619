@@ -24,6 +24,7 @@ def count
   Owner.all.each do |owner|
     
   end
+end
 
 
   
