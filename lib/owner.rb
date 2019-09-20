@@ -8,9 +8,7 @@ class Owner
   
   end
   
-  def name
-    @name 
-  end
+
   
   
   
