@@ -26,8 +26,8 @@ def self.reset_all
   self.all.clear
   end
   
-  def cat
-    Cats.all.select do |cat|
+  def cats
+    Cat.all.select do |cat|
       cat.owner == self
     end
   end
