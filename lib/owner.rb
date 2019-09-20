@@ -20,8 +20,9 @@ def self.all
   @@all
 end
 
-def count
-  Owner.count.each do |owner|
+def self.count
+  self.
+ 
     
   end
 end
