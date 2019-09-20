@@ -21,7 +21,7 @@ def self.all
 end
 
 def self.count
-  self.
+  self.all.count
  
     
   end
