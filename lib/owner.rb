@@ -21,7 +21,7 @@ def self.all
 end
 
 def count
-  Owner.all.each do |owner|
+  Owner.count.each do |owner|
     
   end
 end
