@@ -46,6 +46,10 @@ def buy_dog(name)
   Dog.new(name,self)
 end
 
+def feed_cats
+self.cats.each do |cat| cat.mood = 'happy'
+end
+
 def walk_dogs
 self.dogs.each do |dog| dog.mood = 'happy'
 end
