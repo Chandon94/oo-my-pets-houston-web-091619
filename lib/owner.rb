@@ -30,6 +30,11 @@ def self.reset_all
     Cat.all.select do |cat|
       cat.owner == self
     end
+    
+    def dogs
+    Dog.all.select do |dog|
+      dog.owner == self
+    end
   end
   
   
