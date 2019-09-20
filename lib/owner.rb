@@ -38,7 +38,9 @@ def self.reset_all
     end
   end
   
-
+def buy_cat
+  Cat.new(name,self)
+end
   
   
 
