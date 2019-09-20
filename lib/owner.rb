@@ -8,8 +8,6 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-    
-  
   end
   
 def say_species
@@ -24,9 +22,8 @@ def self.count
   self.all.count
 end
  
-    
-  def self.reset_all 
-    self.all.clear
+def self.reset_all 
+  self.all.clear
   end
   
 end
