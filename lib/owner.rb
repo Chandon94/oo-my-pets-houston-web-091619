@@ -12,9 +12,6 @@ class Owner
     @name 
   end
   
-  def species
-    @species
-  end
   
   
 end
